@@ -89,7 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <p class="terms">
             Việc bạn tiếp tục sử dụng trang web này đồng nghĩa bạn đồng ý với
-            <a href="https://fullstack.edu.vn/terms">điều khoản sử dụng</a> của chúng tôi.
+            <a href="../../termofservices.html">điều khoản sử dụng</a> của chúng tôi.
         </p>
     </form>
     <script src="../js/login.js"></script>
