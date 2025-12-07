@@ -88,7 +88,7 @@
             <h2>Khóa học nổi bật</h2>
             <div class="list_khoa_hoc">
               <div class="card_box">
-                <div><img src="./test/img/lap_trinh_c.png" class="img_card"> </div>
+                <div><img src="./assets/image/lap_trinh_c.png" class="img_card"> </div>
                 <div class="info">
                   <a href="./assets/php/nextpage.php" style="font-size: 20px;">Lập trình C cho người mới bắt đầu</a>
                   <div class="btoom">
@@ -99,7 +99,7 @@
               </div>
 
               <div class="card_box">
-                <div><img src="./test/img/c++.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/c++.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="./assets/php/nextpage.php" style="font-size: 20px;">Khoá học C++ cơ bản</a>
                   <div class="btoom">
@@ -110,7 +110,7 @@
               </div>
 
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -121,7 +121,7 @@
               </div>
 
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -132,7 +132,7 @@
               </div>
 
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -150,7 +150,7 @@
             <h2>Khóa học nổi bật</h2>
             <div class="list_khoa_hoc">
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -161,7 +161,7 @@
               </div>
 
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -172,7 +172,7 @@
               </div>
 
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -183,7 +183,7 @@
               </div>
 
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -194,7 +194,7 @@
               </div>
 
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -211,7 +211,7 @@
             <h2>Khóa học nổi bật</h2>
             <div class="list_khoa_hoc">
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -222,7 +222,7 @@
               </div>
 
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -233,7 +233,7 @@
               </div>
 
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -244,7 +244,7 @@
               </div>
 
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -255,7 +255,7 @@
               </div>
 
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -272,7 +272,7 @@
             <h2>Khóa học nổi bật</h2>
             <div class="list_khoa_hoc">
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -283,7 +283,7 @@
               </div>
 
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -294,7 +294,7 @@
               </div>
 
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -305,7 +305,7 @@
               </div>
 
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -316,7 +316,7 @@
               </div>
 
               <div class="card_box">
-                <div><img src="./assets/img/video-7.jpg" class="img_card"> </div>
+                <div><img src="./assets/image/video-7.jpg" class="img_card"> </div>
                 <div class="info">
                   <a href="#" style="font-size: 20px;">Kiến thức nhập môn IT</a>
                   <div class="btoom">
@@ -343,13 +343,13 @@
       <div class="footer-inner">
         <div class="footer-col contact">
           <a href="/" class="logo" aria-label="36Tech - Home">
-            <img style="border-radius: 10px;" src="./assets/img/logo36Tech.png" alt="" width="50px" height="50px">
+            <img style="border-radius: 10px;" src="./assets/image/logo36Tech.png" alt="" width="50px" height="50px">
 
           </a>
           <p>Điện thoại: 09 6148 0702<br>
             Email: contact@36Tech.edu.vn<br>
             Địa chỉ: Số 18, phố Viên, Đức Thắng, Bắc Từ Liêm, Hà Nội</p>
-          <img src="./assets/img/DCMA.png" alt="DMCA Protected" style="width:120px; margin-top:12px; display:block">
+          <img src="./assets/image/DCMA.png" alt="DMCA Protected" style="width:120px; margin-top:12px; display:block">
         </div>
 
         <div class="footer-col">
