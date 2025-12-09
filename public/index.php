@@ -20,7 +20,7 @@
     <header class="header">
       <div class="header-inner">
         <div class="header-inner-left">
-          <a href="/" class="logo" aria-label="F8 - Home">
+          <a href="#" class="logo" aria-label="F8 - Home">
             <span class="logo-badge">
               <img src="assets/image/logo36Tech.png" width="44px" height="44px" />
             </span>
