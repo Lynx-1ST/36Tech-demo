@@ -111,10 +111,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fullname`, `email`, `username`, `password`, `reset_token`, `reset_token_expiry`, `created_at`, `role`, `avatar`) VALUES
-(1, 'Đào Quang Lộc', 'maihang122th@gmail.com', 'maihang987th', '$2y$10$y.ADhj9NdQEQphMPMLuKWeOBazoCWj0smY2l6aVH/4OA0ycOWz4pa', NULL, NULL, '2025-12-16 15:03:50', 'admin', '2.png'),
-(2, '3213213', 'jhgjhgj@gmail.com', '32131231', '$2y$10$ixu.zRyqXYIYUnNE/4hwZeJjQaRV3k5yAuqyae97Hlb7NNeMjbua.', NULL, NULL, '2025-12-17 08:23:37', 'user', NULL),
-(3, '3213', '21313321321@gmail.com', '21321321', '$2y$10$wO94SjRGI40AoS.6bNsdru8qYNDSpJNS5kiNgSHwn/wo657RwWEm2', NULL, NULL, '2025-12-17 08:24:39', 'user', NULL),
-(4, '321321', '12313@gmail.com', '313132323', '$2y$10$thqlQ9nJV6v4RMEYg8XvteR56LsmHUoiTpqAUutS.luLY697Ft/rC', NULL, NULL, '2025-12-17 08:25:38', 'user', NULL);
+(1, 'admin', 'admin@example.com', 'admin', '$2y$10$yBro8HeZyjAZXLWQjZJu.O73AVwxdRFzWzaUNxiZpLMiG29ZUoUZm', NULL, NULL, '2025-12-16 15:03:50', 'admin', NULL);
 
 --
 -- Indexes for dumped tables
