@@ -1,0 +1,24 @@
+name: Auto Open Pull Request
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create Pull Request to Upstream
+        env:
+          GH_TOKEN: ${{ secrets.MY_PAT }} # BẮT BUỘC dùng PAT để có quyền tạo PR bên kia
+        run: |
+          # Dùng GitHub CLI để tạo PR
+          gh pr create \
+            --repo LeDuyNam005/36Tech-demo \
+            --base Dao-Loc-branch \
+            --head Lynx-1ST:main \
+            --title "Update from Lynx-1ST: ${{ github.event.head_commit.message }}" \
+            --body "Tự động tạo PR từ fork của Lynx-1ST." \
+            || echo "PR đã tồn tại, không cần tạo mới."
