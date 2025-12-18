@@ -1,5 +1,3 @@
----
-
 # 36Tech - Công cụ học lập trình 💻
 
 **36Tech** là một ứng dụng web hỗ trợ học lập trình, bao gồm các chức năng quản lý người dùng, xác thực bảo mật và quản lý khóa học. Dự án được xây dựng bằng **PHP thuần (Native PHP)** theo mô hình cấu trúc rõ ràng, dễ phát triển.
@@ -37,13 +35,14 @@
 git clone https://github.com/Lynx-1ST/36Tech-demo.git
 
 ```
+
 Copy thư mục vừa clone vào thư mục `htdocs` (nếu dùng XAMPP) hoặc `www` (nếu dùng Laragon).
 
 ### 2. Cấu hình Database
 
 1. Mở **phpMyAdmin**.
 2. Tạo một cơ sở dữ liệu mới tên là `36tech_db` (hoặc tên tùy ý).
-3. Import file `database.sql` 
+3. Import file `database.sql`
 
 ### 3. Cấu hình kết nối
 
@@ -52,7 +51,7 @@ Mở file `app/core/connect.php` (hoặc đường dẫn file connect của bạ
 ```php
 $host = 'localhost';
 $user = 'root';
-$pass = ''; // Mật khẩu MySQL 
+$pass = ''; // Mật khẩu MySQL
 $db   = ''; // Tên DB bạn vừa tạo
 define('ASSETS', '../../public/assets'); // Đường dẫn assets
 
