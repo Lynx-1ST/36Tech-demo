@@ -11,7 +11,7 @@ requireLogin();
 // ... (Các đoạn code bên dưới giữ nguyên)
 ?>
 
-<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/index.css">
+<link rel="stylesheet" href="<?php echo ASSETS; ?>css/index.css">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
@@ -38,13 +38,13 @@ requireLogin();
                 <div style="display: flex; align-items: center; gap: 10px;">
 
                     <?php if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin') { ?>
-                        <a href="<?php echo BASE_URL; ?>../app/admin/dashboard.php" class="btn btn-primary"
+                        <a href="<?php echo AUTH; ?>admin/dashboard.php" class="btn btn-primary"
                             style="background-color: #ff6b6b; border-color: #ff6b6b; display: flex; align-items: center; gap: 6px; padding: 12px;">
                             <i class="fa-solid fa-gauge-high"></i> <span style="font-size: 14px;">Dashboard</span>
                         </a>
                     <?php } ?>
 
-                    <a href="<?php echo BASE_URL; ?>../app/auth/profile.php" style="display:flex; align-items:center; gap:8px; padding: 4px 12px; border-radius:999px; border:1px solid #218080; text-decoration: none; color: inherit; background: #fff;">
+                    <a href="<?php echo AUTH; ?>auth/profile.php" style="display:flex; align-items:center; gap:8px; padding: 4px 12px; border-radius:999px; border:1px solid #218080; text-decoration: none; color: inherit; background: #fff;">
 
                         <?php
                         // Xử lý ảnh Avatar dùng BASE_URL
@@ -60,7 +60,7 @@ requireLogin();
                         </span>
                     </a>
 
-                    <a href="<?php echo BASE_URL; ?>../app/auth/logout.php" class="btn btn-ghost" style="color:red; font-size: 19px;">
+                    <a href="<?php echo AUTH; ?>auth/logout.php" class="btn btn-ghost" style="color:red; font-size: 19px;">
                         <i class="fa-solid fa-right-from-bracket"></i>
                     </a>
                 </div>

@@ -7,7 +7,7 @@ require_once __DIR__ . '/config.php';
 requireLogin();
 ?>
 
-<link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/index.css">
+<link rel="stylesheet" href="<?php echo ASSETS; ?>css/index.css">
 <footer class="footer">
     <div class="footer-inner">
         <div class="footer-col contact">
@@ -17,7 +17,7 @@ requireLogin();
             <p>Điện thoại: 09 6148 0702<br>
                 Email: contact@36Tech.edu.vn<br>
                 Địa chỉ: Số 18, phố Viên, Đức Thắng, Bắc Từ Liêm, Hà Nội</p>
-            <img src="<?php echo BASE_URL; ?>assets/image/DCMA.png" alt="DMCA Protected" style="width:120px; margin-top:12px; display:block">
+            <img src="<?php echo ASSETS; ?>image/DCMA.png" alt="DMCA Protected" style="width:120px; margin-top:12px; display:block">
         </div>
 
         <div class="footer-col">

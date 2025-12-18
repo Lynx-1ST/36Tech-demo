@@ -1,4 +1,5 @@
 <?php
 // Định nghĩa đường dẫn gốc của dự án
-// Lưu ý: Thay đổi '36Tech-demo' thành tên thư mục dự án của bạn nếu khác
-define('BASE_URL', 'http://localhost/PJ/36Tech-Loc/public/');
+define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/public/');
+define('ASSETS', 'http://' . $_SERVER['HTTP_HOST'] . '/public/assets/');
+define('AUTH', 'http://' . $_SERVER['HTTP_HOST'] . '/app/');
