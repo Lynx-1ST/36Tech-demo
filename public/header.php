@@ -60,7 +60,7 @@ requireLogin();
                         </span>
                     </a>
 
-                    <a href="<?php echo BASE_URL; ?>app/auth/logout.php" class="btn btn-ghost" style="color:red; font-size: 19px;" onclick="return confirm('Bạn có chắc muốn đăng xuất?')">
+                    <a href="<?php echo BASE_URL; ?>../app/auth/logout.php" class="btn btn-ghost" style="color:red; font-size: 19px;">
                         <i class="fa-solid fa-right-from-bracket"></i>
                     </a>
                 </div>

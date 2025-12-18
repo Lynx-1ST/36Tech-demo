@@ -16,26 +16,14 @@
 <body>
     <div class="page">
         <?php
-        require '../../header.php';
+        require __DIR__ . '/../../header.php';
         ?>
 
         <main class="main">
-            <div class="main-left">
-                <div class="main-left-btn">
-                    <a href="index.html" style="text-decoration: none; color: inherit;">
-                        <button class="btn-home">
-                            <i style="font-size: 20px;" class="fa-solid fa-house"></i>
-                            <p style="font-weight: 500;margin-top: 6px;">Trang chủ</p>
-                        </button>
-                    </a>
-                </div>
-                <div class="main-left-btn">
-                    <button class="btn-road">
-                        <i style="font-size: 20px;" class="fa-solid fa-road"></i>
-                        <p style="font-weight: 500;margin-top: 6px;">Lộ trình</p>
-                    </button>
-                </div>
-            </div>
+
+            <?php
+            require __DIR__ . '/../../main-left.php';
+            ?>
 
             <div class="main-right">
                 <div class="video-column">
@@ -407,13 +395,9 @@
             </div>
         </main>
 
-        <footer class="footer">
-            <div class="footer-inner">
-            </div>
-            <div class="footer-bottom">
-                <span>© 2025 36Tech.</span>
-            </div>
-        </footer>
+        <?php
+        require __DIR__ . '/../../footer.php';
+        ?>
     </div>
 
     <script src="scrip.js"></script>

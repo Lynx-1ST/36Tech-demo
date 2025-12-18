@@ -58,20 +58,11 @@ $result = mysqli_query($conn, $sql);
     <title>Quản trị thành viên</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        /* Paste lại CSS ở câu trả lời trước vào đây */
-        :root {
-            --primary: #218080;
-            --bg: #f4f6f8;
-            --white: #fff;
-            --text: #333;
-            --danger: #dc3545;
-        }
-
         body {
             font-family: 'Segoe UI', sans-serif;
-            background: var(--bg);
+            background: #f4f6f8;
             margin: 0;
-            color: var(--text);
+            color: #333;
         }
 
         .admin-container {
@@ -89,15 +80,15 @@ $result = mysqli_query($conn, $sql);
 
         .btn-home {
             text-decoration: none;
-            color: var(--primary);
+            color: #218080;
             font-weight: 600;
-            border: 1px solid var(--primary);
+            border: 1px solid #218080;
             padding: 8px 15px;
             border-radius: 5px;
         }
 
         .card {
-            background: var(--white);
+            background: #fff;
             border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
             overflow: hidden;

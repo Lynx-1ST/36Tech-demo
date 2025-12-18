@@ -12,12 +12,12 @@ requireLogin();
     <div class="footer-inner">
         <div class="footer-col contact">
             <a href="<?php echo BASE_URL; ?>index.php" class="logo" aria-label="36Tech - Home">
-                <img style="border-radius: 10px;" src="assets/image/logo36Tech.png" alt="" width="50px" height="50px">
+                <img style="border-radius: 10px;" src="<?php echo BASE_URL; ?>assets/image/logo36Tech.png" alt="" width="50px" height="50px">
             </a>
             <p>Điện thoại: 09 6148 0702<br>
                 Email: contact@36Tech.edu.vn<br>
                 Địa chỉ: Số 18, phố Viên, Đức Thắng, Bắc Từ Liêm, Hà Nội</p>
-            <img src="assets/image/DCMA.png" alt="DMCA Protected" style="width:120px; margin-top:12px; display:block">
+            <img src="<?php echo BASE_URL; ?>assets/image/DCMA.png" alt="DMCA Protected" style="width:120px; margin-top:12px; display:block">
         </div>
 
         <div class="footer-col">
