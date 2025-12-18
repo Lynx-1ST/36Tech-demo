@@ -2,7 +2,7 @@ name: Push to Upstream
 on:
   push:
     branches:
-      - main # Nhánh ở fork mà bạn sẽ cập nhật
+      - main 
 jobs:
   push-to-origin:
     runs-on: ubuntu-latest
@@ -10,10 +10,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - name: Push to Upstream Repo
         run: |
-          # Thêm remote của dự án chính
-          git remote add upstream https://github.com/LeDuyNam005/36Tech-demo
-          # Đẩy code từ nhánh hiện tại lên nhánh đích ở dự án chính
-          # Bạn cần một Personal Access Token (PAT) có quyền 'repo' để thực hiện việc này
-          git push https://${{ secrets.MY_PAT }}@
+          git push https://${{ secrets.MY_PAT }}@github.com/LeDuyNam005/36Tech-demo.git HEAD:Dao-Loc-branch
