@@ -2,7 +2,6 @@
 require_once 'connect.php';
 require_once 'auth.php';
 require_once '../../public/config.php';
-
 requireLogin();
 
 $mess = '';
